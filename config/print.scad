@@ -14,7 +14,7 @@
     - Values are signed. Positive values can be interpreted as how much to remove from the socket along some dimension.
     - These values depend on print orientation and it's assumed parts are printed in their recommended orientations.
 */
-xySlack = 0.3;
+xySlack = 0.35;
 
 radiusXYSlack = xySlack/2;
 
@@ -30,4 +30,4 @@ xBarYBarDovetailSlack = xySlack;
 /**********************************************************************************************************************
   Printer/slicer config, mainly used for calculating some special overhangs.
 */
-defaultLayerHeight = 0.3;
+defaultLayerHeight = 0.2;
