@@ -35,6 +35,11 @@ _profileConfigs = [
       ["maxUnitWidth", 205],
       ["maxUnitDepth", 205],
       ["numRailScrews", 16]
+    ]],
+    ["ewan", [
+      ["maxUnitWidth", 205],
+      ["maxUnitDepth", 205],
+      ["numRailScrews", 27]
     ]]
   ];
 
