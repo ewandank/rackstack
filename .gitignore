@@ -3,6 +3,7 @@
 .idea
 
 **/stl/*
+!/stl/ewan/
 !/stl/mini/
 !/stl/micro/
 !/stl/nano/
