@@ -1,5 +1,5 @@
 // Manually set this variable to toggle rack profile
-profileName = "micro";
+profileName = "ewan";
 
 _profileConfigs = [
     // You can introduce a custom profile like:

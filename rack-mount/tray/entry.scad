@@ -12,12 +12,12 @@ module traySystem (
 
 // begin config ////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-trayU = 2,
+trayU = 4,
 
-baseWidth = 145,
-baseDepth = 100,
+baseWidth = 140,
+baseDepth = 132,
 
-baseThickness = 3, // tray bottom thickness
+baseThickness = 2, // tray bottom thickness
 frontThickness = 3, // front plate thickness
 sideThickness = 3,
 
@@ -32,10 +32,10 @@ mountPointElevation = 1, // basically standoff height
 
 // add/config standoff coordinates here. Format is [[x,y]]
 mountPoints = [
-    [30,10],
-    [30+75,10],
-    [30,10+75],
-    [30+75,10+75],
+    //[30,10],
+    //[30+75,10],
+    //[30,10+75],
+    //[30+75,10+75],
 ]
 
 // end config //////////////////////////////////////////////////////////////////////////////////////////////////////////

@@ -19,7 +19,7 @@ module enclosedBoxSystem (
 // Does not affect any part dimensions. Set this to true to visualize how a box would be mounted.
 visualize = false,
 zOrientation = "middle", // ["middle" | "bottom"]
-// recessSideRail = true,
+recessSideRail = false,
 
 // boxWidth = 170,
 // boxHeight = 27,
@@ -34,33 +34,30 @@ frontPlateCutoutXSpace = 5,
 /** end default config */
 
 
-/** begin NBN HFC (Arris CM8200) */
+/** begin NBN HFC (Arris CM8200) */ 
+//this one is sus to me, no way its thicker then the others
 // boxWidth = 132,
 // boxHeight = 44,
 // boxDepth = 132,
-// recessSideRail = false,
 /** end NBN HFC (Arris CM8200) */
 
 /** begin HP EliteDesk 800 G2 Mini */
-// boxWidth = 178,
+//boxWidth = 178,
 // boxHeight = 34,
 // boxDepth = 175,
-// recessSideRail = true,
 /** end HP EliteDesk 800 G2 Mini */
 
 
 /** begin HP EliteDesk 800 G5 Mini */
-// boxWidth = 177,
-// boxHeight = 34,
-// boxDepth = 175,
-// recessSideRail = true,
+//boxWidth = 177,
+//boxHeight = 34,
+//boxDepth = 175,
 /** end HP EliteDesk 800 G5 Mini */
 
 /** Begin Chinese Router (I need to validate with calipers) */
-boxWidth = 140,
-boxHeight = 40,
-boxDepth = 130,
-recessSideRail = false,
+boxWidth = 136,
+boxHeight = 46,
+boxDepth = 126,
 /** end Chinese Router */
 
 
